@@ -18,6 +18,15 @@ const ProductCard = ({ product }) => {
                             <p >
                                 {product.product_price}
                             </p>
+                            <div className='buttons'>
+ <button className='btn btn-warning'>
+                                Add to Bag
+                            </button>
+                            <button className='btn btn-success'>
+                                Order Now
+                            </button>
+                            </div>
+                           
 
                         </div>
                    

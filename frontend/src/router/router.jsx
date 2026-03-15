@@ -24,7 +24,7 @@ const my_router = createBrowserRouter(
                     element:<Contact/>
                 },
                 {
-                    path:'/Products',
+                    path:'/Menu',
                     element:<ProductPage/>
                 }
             ]
