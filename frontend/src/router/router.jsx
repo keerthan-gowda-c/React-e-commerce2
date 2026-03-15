@@ -3,6 +3,7 @@ import App from '../App';
 import HomePage from '../pages/HomePage/HomePage';
 import AboutPage from '../pages/AboutPage/AboutPage';
 import Contact from '../pages/Contact/Contact';
+import ProductPage from '../pages/ProductPage/ProductPage';
 
 
 const my_router = createBrowserRouter(
@@ -21,6 +22,10 @@ const my_router = createBrowserRouter(
                 {
                     path:'/Contact',
                     element:<Contact/>
+                },
+                {
+                    path:'/Products',
+                    element:<ProductPage/>
                 }
             ]
         }

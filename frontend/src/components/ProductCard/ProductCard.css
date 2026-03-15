@@ -1,0 +1,13 @@
+.card{
+    width: 300px;
+    margin: auto;
+    
+
+}
+ img{
+    object-position: top;
+object-fit: cover;
+    height: 35%;
+    border-radius: 5px;
+}
+   
