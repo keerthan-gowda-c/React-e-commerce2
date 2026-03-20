@@ -10,14 +10,22 @@ export default function HomePage() {
             <div className="home_carousel">
                 <Carousel images={carousel_data} />
             </div>
-            <div className='row row-cols-2 row-cols-md-3  w-100'>
-                {
-                    content_data.map((contents, index) => (
-                        <CategoriesCards content={contents} />
-                    ))
-                }
+            <div className='category-section' id='category'>
+                <div>
+                    <h2 className='text-center'>
+                        Categories
+                    </h2>
+                </div>
+                <div className='categories row row-cols-2 row-cols-md-3 w-100'>
+                    {
+                        content_data.map((contents, index) => (
+                            <CategoriesCards content={contents} />
+                        ))
+                    }
 
+                </div>
             </div>
+
         </>
     )
 }

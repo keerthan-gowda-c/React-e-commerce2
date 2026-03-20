@@ -1,0 +1,30 @@
+.about-head{
+    font-size:40px;
+    font-style: italic;
+    span{
+        text-shadow: 1px 1px 5px brown;
+        color: beige;
+    }
+}
+
+.about-container{
+    /* display: grid;
+    grid-template-columns: auto auto; */
+    /* border: 1px solid; */
+    width:80%;
+    margin: auto;
+    padding-right: 150px;
+    padding-left: 150px;
+    img{
+        /* border: 1px solid ; */
+       width: 100%;
+    }
+}
+
+.about-content{
+    p{
+font-weight: 600;
+font-style: italic;
+    }
+    
+}

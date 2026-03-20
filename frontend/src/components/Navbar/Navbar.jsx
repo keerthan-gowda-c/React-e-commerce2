@@ -21,9 +21,11 @@ export default function Navbar(){
                             <li className="nav-item">
                                 <NavLink to='/Contact' className='nav-link'>Contact</NavLink>
                             </li>
+                           
                             <li className="nav-item">
                                 <NavLink to='/Menu' className='nav-link'>Menu</NavLink>
                             </li>
+                             
                         </ul>
                 
                     </div>
