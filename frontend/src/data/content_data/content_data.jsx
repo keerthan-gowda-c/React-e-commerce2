@@ -36,3 +36,4 @@ const content_data = [
     }
 ]
 
+export default content_data;

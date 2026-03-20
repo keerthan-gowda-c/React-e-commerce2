@@ -1,0 +1,13 @@
+.category-card{
+    width: 150px;
+    /* height: 200px; */
+    border: 1px solid;
+    align-items: left;
+    padding: 0;
+
+    .category-img{
+        width: 100%;
+        object-fit: fill;
+
+    }
+}

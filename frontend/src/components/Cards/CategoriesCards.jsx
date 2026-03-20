@@ -1,17 +1,17 @@
-
+import './CategoriesCards.css'
 
 const CategoriesCards = ({ content }) => {
 
     return (
         <>
-            {
-                <div className="card" style="width: 18rem;">
-                    <img src={content.img_src} className="card-img-top" alt="..." />
-                    <div className="card-body">
-                        <p className="card-text">{content.title}</p>
-                    </div>
+            
+                <div className="card category-card ">
+                    <img src={content.img_src} className="card-img-top category-img" alt="..." />
+                    {/* <div className="card-body"> */}
+                        <p className="card-text text-center">{content.title}</p>
+                    {/* </div> */}
                 </div>
-            }
+            
 
         </>
     )
