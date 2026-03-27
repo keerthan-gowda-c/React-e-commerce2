@@ -4,6 +4,7 @@ import HomePage from '../pages/HomePage/HomePage';
 import AboutPage from '../pages/AboutPage/AboutPage';
 import Contact from '../pages/Contact/Contact';
 import ProductPage from '../pages/ProductPage/ProductPage';
+import LoginPage from '../pages/LoginPage/LoginPage';
 
 
 const my_router = createBrowserRouter(
@@ -26,6 +27,10 @@ const my_router = createBrowserRouter(
                 {
                     path:'/Menu',
                     element:<ProductPage/>
+                },
+                {
+                    path:'/Login',
+                    element:<LoginPage/>
                 }
             ]
         }

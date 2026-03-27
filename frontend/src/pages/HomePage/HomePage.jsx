@@ -16,7 +16,7 @@ export default function HomePage() {
                         Categories
                     </h2>
                 </div>
-                <div className='categories row row-cols-2 row-cols-md-3 w-100'>
+                <div className='categories row row-cols-1 row-cols-md-4 g-4 w-100'>
                     {
                         content_data.map((contents, index) => (
                             <CategoriesCards content={contents} />

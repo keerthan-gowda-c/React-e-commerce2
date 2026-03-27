@@ -5,8 +5,8 @@ import './ProductPage.css'
 export default function ProductPage(){
     return(
         <>
-        <h1>Product Page</h1>
-        <div className='row row-cols-2 row-cols-md-3 g-4 w-100'>
+        
+        <div className='card-section row row-cols-1 row-cols-md-4 g-4'>
             {
                 products_data.map((products,index)=>(
                     <ProductCard product={products}/>

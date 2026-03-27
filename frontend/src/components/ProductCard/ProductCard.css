@@ -1,17 +1,28 @@
-.card{
+.card {
+    /* height: 500px; */
     width: 300px;
     margin: auto;
-    
+    /* aspect-ratio: 12/4; */
+    overflow: hidden;
+    padding: 0;
+
+
+
+    img {
+        object-position: center;
+        object-fit: fill;
+        height: 35%;
+        border-radius: 5px;
+        /* border: 1px solid; */
+    }
+
+
 
 }
- img{
-    object-position: top;
-object-fit: cover;
-    height: 35%;
-    border-radius: 5px;
+
+.buttons {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+
 }
-   .buttons{
-    display: grid;
-    grid-template-columns: auto auto;
-    
-   }

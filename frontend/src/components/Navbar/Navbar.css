@@ -10,3 +10,10 @@
     /* align-items:flex-end; */
     
 }
+.authentication{
+    display: flex;
+    width: 300px;
+    /* border: 1px solid; */
+    padding: 10px;
+    justify-content: space-around;
+}

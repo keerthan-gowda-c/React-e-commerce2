@@ -1,4 +1,10 @@
-img{
-    object-fit: fit;
-    height: 35%;
+.card-section{
+    /* border: 1px solid; */
+    margin: auto;
+    /* display: flex; */
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* justify-content: space-around; */
+   
 }
