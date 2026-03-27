@@ -1,15 +1,9 @@
-.category-card{
-   
-    /* border: 1px solid; */
-    /* align-items: left; */
+#category-card {
     padding: 0;
     width: 300px;
-    /* height:200px; */
     overflow: hidden;
-
-   
-
-    .category-img{
+    /* top: 50%; */
+    .category-img {
         width: 100%;
         object-position: center;
         object-fit: contain;
@@ -17,7 +11,8 @@
         border-bottom-right-radius: 0%;
     }
 }
- .category-card:hover{
-    transition: 400ms ;
-        box-shadow: 3px 3px 10px 5px rgb(124, 115, 128);
-    }
+
+.category-card:hover {
+    transition: 400ms;
+    box-shadow: 3px 3px 10px 5px rgb(124, 115, 128);
+}

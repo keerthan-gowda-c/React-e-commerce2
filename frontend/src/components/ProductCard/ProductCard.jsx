@@ -4,7 +4,7 @@ const ProductCard = ({ product }) => {
 
     return (
         <>
-        <div className="card product-card" >
+        <div id='product-card' className="card col-12 col-sm-6 col-md-4 col-lg-3" >
            
   <img src={product.thumbnail} class="card-img-top product-img" alt="..."/>
             

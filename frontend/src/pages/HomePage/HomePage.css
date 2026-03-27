@@ -1,20 +1,39 @@
 .home_carousel {
     object-fit: cover;
     height:622px;
-    border: 1px solid;
+   
 
 }
 .category-section{
-    
+    position: absolute;
+   
+    /* top: 90%; */
     padding: 50px;
+    h1{
+    text-shadow: 2px 2px 5px bisque;
+    background-image: linear-gradient(to bottom, brown, blanchedalmond);
+    left: 50%;
+    /* position: absolute; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+    .category-heading{
+        /* border: 1px solid; */
+        position:static;
+         transform: translateX(-12px);
+         /* left: 50%; */
+         
+    }
 }
 .categories{
-    width: 100px;
-    height: 600px;
-    border-radius: 20px;
+    top: 50%;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     border: 1px solid rgb(253, 241, 0);
-    
+    padding: 10px;
     background-color: blanchedalmond;
+    justify-content: space-around;
     
     
 

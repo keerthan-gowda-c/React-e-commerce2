@@ -11,10 +11,10 @@ export default function HomePage() {
                 <Carousel images={carousel_data} />
             </div>
             <div className='category-section' id='category'>
-                <div>
-                    <h2 className='text-center'>
+                <div className='category-heading'>
+                    <h1 className='text-center'>
                         Categories
-                    </h2>
+                    </h1>
                 </div>
                 <div className='categories row row-cols-1 row-cols-md-4 g-4 w-100'>
                     {

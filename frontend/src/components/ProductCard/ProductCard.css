@@ -1,17 +1,16 @@
-.card {
-    /* height: 500px; */
+#product-card {
+    height: 400px;
     width: 300px;
-    margin: auto;
-    /* aspect-ratio: 12/4; */
     overflow: hidden;
     padding: 0;
+    border: 1px solid;
 
 
 
     img {
         object-position: center;
         object-fit: fill;
-        height: 35%;
+        height: 50%;
         border-radius: 5px;
         /* border: 1px solid; */
     }
